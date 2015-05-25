@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/index_background"
+        android:orientation="vertical">
+
+        <!-- Top bar -->
+        <include layout="@layout/title_bar"/>
+
+        <!-- Pan layout -->
+        <include layout="@layout/pan_layout"/>
+
+        <!-- Select layout -->
+        <include layout="@layout/name_select"/>
+    </LinearLayout>
+</FrameLayout>
